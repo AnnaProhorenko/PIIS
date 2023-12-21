@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><a href="PIIS/LAB1/index.html"> PIIS LAB1</a></h1>
+    <h1><a href="[PIIS/LAB1/index.html](https://github.com/AnnaProhorenko/INIS-EVT-labs/tree/master/LAB1)"> PIIS LAB1</a></h1>
     <h1><a href="PIIS/LAB2/index.html"> PIIS LAB2</a></h1>
     <h1><a href="PIIS/LAB3-4/index.html"> PIIS LAB3-4</a></h1>
     <h1><a href="PIIS/LAB5/lab5.html"> PIIS LAB5</a></h1>
