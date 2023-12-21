@@ -1,3 +1,3 @@
 # Анна Прохоренко 110901
 
-![LINK](http://127.0.0.1:5500/index.html)
+[LINK](https://inis-evt-labs-prohorenko.netlify.app/)
