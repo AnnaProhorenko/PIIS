@@ -1,0 +1,130 @@
+/* 1. Header "приклеить" к верху экрана */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #57ccfb;
+    z-index: 999; /* Чтобы заголовок был поверх всего */
+    height: 50px;
+    text-align: center !important;
+    display: flex; /* Используем flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center;
+
+}
+
+/* 2. Footer "приклеить" к низу экрана */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #29d03d;
+    height: 35px;
+    text-align: center !important;
+}
+
+/* 3. Весь текст (кроме цитат) не должен быть курсивом */
+article.article p:not(blockquote) {
+    font-style: normal !important;
+    text-align: center !important;
+}
+
+/* 4. Все цитаты сделать курсивными */
+.blockquote {
+    font-style: italic !important;
+    font-weight: normal !important;
+    text-align: center !important;
+}
+
+
+/* 5. Выравнивание всего текста по центру */
+body .wrapper {
+    max-width: none !important; /* Убираем ограничение максимальной ширины */
+}
+
+
+/* 6. Каждый блок текста "теперь я знаю немного больше" */
+.word { 
+    display: inline-block;  
+    position: sticky; 
+    color: white; 
+    top: 62px; 
+    padding: 10px; 
+} 
+ 
+.word.first { 
+    background-color: blueviolet; 
+} 
+ 
+.word.second { 
+    background-color:cornflowerblue; 
+    left: 80px; 
+} 
+ 
+.word.third { 
+    background-color: forestgreen; 
+    left: 120px; 
+} 
+ 
+.word.fourth { 
+    background-color:goldenrod; 
+    left: 185px; 
+} 
+ 
+.word.fifth { 
+    background-color: coral; 
+    left: 270px; 
+}
+
+/* 7. У каждого мультфильма первая буква первого абзаца сюжета */
+article.article p:first-of-type:first-letter {
+    font-size: 2em; /* Увеличиваем размер первой буквы */
+    color: #ff0000; /* Изменяем цвет первой буквы */
+}
+
+/* 8. Картинки должны чередоваться */
+
+.first img {
+    float: left; /* Первая картинка слева */
+    margin-right: 20px; /* Расстояние между изображением и текстом */
+}
+
+.second img {
+    float: right; /* Вторая картинка справа */
+    margin-left: 20px; /* Расстояние между изображением и текстом */
+    margin-right: 0;
+}
+
+.third img {
+    float: left; /* Первая картинка слева */
+    margin-right: 20px; /* Расстояние между изображением и текстом */
+}
+
+.fourth img {
+    float: right; /* Вторая картинка справа */
+    margin-left: 20px; /* Расстояние между изображением и текстом */
+    margin-right: 0;
+}
+
+.fifth img {
+    float: left; /* Первая картинка слева */
+    margin-right: 20px; /* Расстояние между изображением и текстом */
+}
+
+
+
+/* 9. Ссылка в футере */
+footer a {
+    cursor: default !important; /* Указатель не меняется */
+    text-decoration: underline !important;
+    color: #62016d !important;
+}
+
+img {
+    width: 150px !important; /* Новая ширина */
+    height: 150px !important; /* Автоматически определяем высоту, чтобы сохранить пропорции */
+}
+
+h2, h3 {
+    text-align: center !important;
+}
